@@ -1,4 +1,4 @@
-package name.browniz23.domain;
+package name.browniz23.provider;
 
 import java.util.List;
 

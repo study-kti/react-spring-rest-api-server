@@ -6,8 +6,8 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Service;
 
-import name.browniz23.domain.Book;
-import name.browniz23.domain.BookRepository;
+import name.browniz23.provider.Book;
+import name.browniz23.provider.BookRepository;
 
 @Service
 @Transactional

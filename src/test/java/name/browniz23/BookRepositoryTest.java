@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import name.browniz23.domain.Book;
-import name.browniz23.domain.BookRepository;
+import name.browniz23.provider.Book;
+import name.browniz23.provider.BookRepository;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

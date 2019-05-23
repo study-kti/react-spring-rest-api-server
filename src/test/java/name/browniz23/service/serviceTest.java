@@ -15,8 +15,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import name.browniz23.domain.Book;
-import name.browniz23.domain.BookRepository;
+import name.browniz23.provider.Book;
+import name.browniz23.provider.BookRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment=WebEnvironment.NONE)
