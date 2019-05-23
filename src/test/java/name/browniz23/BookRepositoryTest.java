@@ -2,6 +2,8 @@ package name.browniz23;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import java.util.List;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,5 +32,21 @@ public class BookRepositoryTest {
 		repository.save(book);
 		
 		assertThat(book.isNew()).isFalse();
+	}
+	
+	@Test
+	public void testFindByNameLike() {
+		Book book = new Book();
+		book.setName("Spring learning Book");
+		book.setIsbn10("0123456789");
+		book.setIsbn13("0123456789012");
+		
+		repository.save(book);
+		
+		List<Book> books = repository.findByNameLike("Spring learning Boo%");
+		assertThat(books).isNotEmpty();
+		
+		books = repository.findByNameLike("learning");
+		assertThat(books).isEmpty();
 	}
 }
