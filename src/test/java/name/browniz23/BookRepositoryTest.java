@@ -25,6 +25,10 @@ public class BookRepositoryTest {
 		book.setIsbn10("0123456789");
 		book.setIsbn13("0123456789012");
 		
-		assertThat(book.isNew()).isTrue();	
+		assertThat(book.isNew()).isTrue();
+		
+		repository.save(book);
+		
+		assertThat(book.isNew()).isFalse();
 	}
 }
