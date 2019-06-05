@@ -14,7 +14,7 @@ public class ReactSpringRestApiServerApplication implements CommandLineRunner {
     private MemberRepository memberRepository;
 	
 	public static void main(String[] args) {
-		System.out.print("commit1");
+		System.out.print("commit1ee");
 		SpringApplication.run(ReactSpringRestApiServerApplication.class, args);
 	}
 	
