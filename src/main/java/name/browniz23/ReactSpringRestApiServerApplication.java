@@ -14,7 +14,7 @@ public class ReactSpringRestApiServerApplication implements CommandLineRunner {
     private MemberRepository memberRepository;
 	
 	public static void main(String[] args) {
-		
+		asdasdasdasdsdasdasds
 		SpringApplication.run(ReactSpringRestApiServerApplication.class, args);
 	}
 	
