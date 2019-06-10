@@ -14,7 +14,6 @@ public class ReactSpringRestApiServerApplication implements CommandLineRunner {
     private MemberRepository memberRepository;
 	
 	public static void main(String[] args) {
-		System.out.println("sgg");
 		SpringApplication.run(ReactSpringRestApiServerApplication.class, args);
 	}
 	
