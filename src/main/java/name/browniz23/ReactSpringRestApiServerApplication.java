@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.*;
 public class ReactSpringRestApiServerApplication implements CommandLineRunner {
 	
 	@Autowired
-	
 	public static void main(String[] args) {
 		SpringApplication.run(ReactSpringRestApiServerApplication.class, args);
 	}
