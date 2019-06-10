@@ -11,7 +11,6 @@ public class ReactSpringRestApiServerApplication implements CommandLineRunner {
 	@Autowired
 	
 	public static void main(String[] args) {
-		System.out.println("sgg");
 		SpringApplication.run(ReactSpringRestApiServerApplication.class, args);
 	}
 	
