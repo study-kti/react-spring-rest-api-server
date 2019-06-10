@@ -11,7 +11,6 @@ import name.browniz23.service.*;
 public class ReactSpringRestApiServerApplication implements CommandLineRunner {
 	
 	@Autowired
-    private MemberRepository memberRepository;
 	
 	public static void main(String[] args) {
 		System.out.println("sgg");
@@ -20,10 +19,5 @@ public class ReactSpringRestApiServerApplication implements CommandLineRunner {
 	
 	@Override
     public void run(String... args) throws Exception {
-        memberRepository.save(Member.join("member1", 20));
-        memberRepository.save(Member.join("member2", 21));
-        memberRepository.save(Member.join("member3", 22));
-        memberRepository.save(Member.join("member4", 23));
-        memberRepository.save(Member.join("member5", 24));
     }
 }
