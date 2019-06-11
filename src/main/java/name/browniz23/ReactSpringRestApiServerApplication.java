@@ -10,7 +10,7 @@ public class ReactSpringRestApiServerApplication implements CommandLineRunner {
 	
 	@Autowired
 	public static void main(String[] args) {
-	///xss
+	///sxss
 		SpringApplication.run(ReactSpringRestApiServerApplication.class, args);
 	}
 	
